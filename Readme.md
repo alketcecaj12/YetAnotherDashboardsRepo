@@ -12,3 +12,7 @@
 - Voila
 
 - Panel
+
+- Altair
+
+- Shiny for Pythin
