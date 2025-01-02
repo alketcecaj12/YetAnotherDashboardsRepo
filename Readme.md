@@ -7,6 +7,8 @@
 
 - Mercury
 
+- Bokeh
+
 - Streamlit 
 
 - Voila
@@ -15,4 +17,4 @@
 
 - Altair
 
-- Shiny for Pythin
+- Shiny for Python
