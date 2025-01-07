@@ -1,0 +1,21 @@
+[taipy]
+# Global configuration settings
+
+[data_nodes.input_data]
+type = "csv"
+path = "data/input.csv"
+
+[data_nodes.output_data]
+type = "pickle"
+path = "data/output.pkl"
+
+[tasks.process_data]
+inputs = ["input_data"]
+outputs = ["output_data"]
+function = "my_module.process_function"
+
+[pipelines.main_pipeline]
+tasks = ["process_data"]
+
+[scenarios.main_scenario]
+pipelines = ["main_pipeline"]

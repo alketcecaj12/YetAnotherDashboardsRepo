@@ -49,13 +49,13 @@ if __name__ == "__main__":
 
     # User interface definition
     my_page = """
-# Film Recommendation
+     # Film Recommendation
 
-## Choose Your Favorite Genre
-<|{selected_genre}|selector|lov={genres}|on_change=on_genre_selected|dropdown|>
+     ## Choose Your Favorite Genre
+     <|{selected_genre}|selector|lov={genres}|on_change=on_genre_selected|dropdown|>
 
-## Here are the Top Seven Picks by Popularity
-<|{df}|chart|x=Title|y=Popularity %|type=bar|title=Film Popularity|>
-    """
+     ## Here are the Top Seven Picks by Popularity
+     <|{df}|chart|x=Title|y=Popularity %|type=bar|title=Film Popularity|>
+     """
 
     Gui(page=my_page).run()
